@@ -1,7 +1,5 @@
-function sum(){
-    a=15;
-    b=25;
-    result = a+b;
-    console.log(result);
+let a = sum(15,25)
+function sum(x,y){
+    return x+y
 }
-sum;
+console.log(a)
