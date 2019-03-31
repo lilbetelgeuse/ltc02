@@ -1,8 +1,8 @@
 #include "stdio.h" 
 float calc(float w, float h)
 {
-    float calc = w/(h*h);
-    return calc;
+    
+    return w/(h*h);
 }
 float w;
 float h;
